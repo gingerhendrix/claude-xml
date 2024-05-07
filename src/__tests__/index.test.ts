@@ -1,17 +1,11 @@
-import { equal } from "node:assert/strict";
 import { describe, it } from "node:test";
+import { expect } from "chai";
 
-import { foobar } from "../index.js";
+import { SimpleParser } from "../index.js";
 
-await describe("foobar()", async () => {
-	await describe("given two positive integers", async () => {
-		const first = 1;
-		const second = 2;
+await describe("exports", async () => {
 
-		await describe("when called", async () => {
-			await it("returns the sum of them multiplied by 3", () => {
-				equal(foobar(first, second), 9);
-			});
-		});
+	await it("exports all the required functions", async () => {
+		expect(SimpleParser).to.be.a("function");
 	});
 });

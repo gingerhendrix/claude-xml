@@ -10,7 +10,11 @@
 		"rmrf",
 		"ryansonshine",
 		"socio",
-		"tsdoc"
+		"tsdoc",
+		"onopentag",
+		"onclosetag",
+		"ontext",
+		"nocheck"
 	],
 	"flagWords": [],
 	"ignorePaths": [
