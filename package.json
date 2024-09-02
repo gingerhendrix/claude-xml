@@ -1,6 +1,6 @@
 {
 	"name": "@gingerhendrix/claude-xml",
-	"version": "0.1",
+	"version": "0.1.0",
 	"description": "A loose xml parser, builder and schema suitable for streaming LLM responses",
 	"keywords": [
 		"xml",
